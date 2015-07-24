@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM", "HRM\HRM.csproj", "{D98DA2B0-33C1-4C9D-83B0-A2521496762C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{2498C2FB-5CD8-48EE-847F-AF3B92919A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "HRM\Entities\Entities.csproj", "{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shkelqimsina.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DAL\\DAL.csproj
+		SccProjectName1 = DAL
+		SccLocalPath1 = DAL
+		SccProjectUniqueName2 = HRM\\Entities\\Entities.csproj
+		SccProjectName2 = HRM/Entities
+		SccLocalPath2 = HRM\\Entities
+		SccProjectUniqueName3 = HRM\\HRM.csproj
+		SccProjectName3 = HRM
+		SccLocalPath3 = HRM
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98DA2B0-33C1-4C9D-83B0-A2521496762C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98DA2B0-33C1-4C9D-83B0-A2521496762C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98DA2B0-33C1-4C9D-83B0-A2521496762C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98DA2B0-33C1-4C9D-83B0-A2521496762C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2498C2FB-5CD8-48EE-847F-AF3B92919A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2498C2FB-5CD8-48EE-847F-AF3B92919A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2498C2FB-5CD8-48EE-847F-AF3B92919A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2498C2FB-5CD8-48EE-847F-AF3B92919A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\TFS\HRMSol\DAL\bin\Debug\DAL.dll
+D:\TFS\HRMSol\DAL\bin\Debug\DAL.pdb
+D:\TFS\HRMSol\DAL\bin\Debug\Entities.dll
+D:\TFS\HRMSol\DAL\bin\Debug\Entities.pdb
+D:\TFS\HRMSol\DAL\obj\Debug\DAL.dll
+D:\TFS\HRMSol\DAL\obj\Debug\DAL.pdb
+D:\TFS\HRMSol\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

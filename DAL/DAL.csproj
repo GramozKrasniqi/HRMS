@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2498C2FB-5CD8-48EE-847F-AF3B92919A05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DALHelper.cs" />
+    <Compile Include="Mapper\AmandamentMapper.cs" />
+    <Compile Include="Mapper\AmandamentTemplateMapper.cs" />
+    <Compile Include="Mapper\ApplicationStringMapper.cs" />
+    <Compile Include="Mapper\BankMapper.cs" />
+    <Compile Include="Mapper\BenefitMapper.cs" />
+    <Compile Include="Mapper\ComplaintMapper.cs" />
+    <Compile Include="Mapper\ContractMapper.cs" />
+    <Compile Include="Mapper\ContractTemplateMapper.cs" />
+    <Compile Include="Mapper\CountryMapper.cs" />
+    <Compile Include="IGeneralMapper.cs" />
+    <Compile Include="Mapper\CurrentJobDetailsMapper.cs" />
+    <Compile Include="Mapper\EducationTrainingMapper.cs" />
+    <Compile Include="Mapper\EmployeeMapper.cs" />
+    <Compile Include="Mapper\ExperienceMapper.cs" />
+    <Compile Include="Mapper\FormMapper.cs" />
+    <Compile Include="Mapper\FunctionalLevelMapper.cs" />
+    <Compile Include="Mapper\GradeMapper.cs" />
+    <Compile Include="Mapper\HolidayGroupMapper.cs" />
+    <Compile Include="Mapper\HolidayMapper.cs" />
+    <Compile Include="Mapper\JobTitleMapper.cs" />
+    <Compile Include="Mapper\LanguageMapper.cs" />
+    <Compile Include="Mapper\LeaveRequestMapper.cs" />
+    <Compile Include="Mapper\LeaveRespondMapper.cs" />
+    <Compile Include="Mapper\LeaveTypeLevelMapper.cs" />
+    <Compile Include="Mapper\LeaveTypeMapper.cs" />
+    <Compile Include="Mapper\NationalityMapper.cs" />
+    <Compile Include="Mapper\OrganizationalUnitGroupMapper.cs" />
+    <Compile Include="Mapper\OrganizationalUnitMapper.cs" />
+    <Compile Include="Mapper\PayScaleItemMapper.cs" />
+    <Compile Include="Mapper\PayScaleMapper.cs" />
+    <Compile Include="Mapper\ReminderMapper.cs" />
+    <Compile Include="Mapper\ReportedAbsenceMapper.cs" />
+    <Compile Include="Mapper\RoleMapper.cs" />
+    <Compile Include="Mapper\SkillMapper.cs" />
+    <Compile Include="Mapper\StepMapper.cs" />
+    <Compile Include="Mapper\Transactions\EmployeeMapperTransaction.cs" />
+    <Compile Include="Mapper\Transactions\LinkEmployeeToUserBO.cs" />
+    <Compile Include="Mapper\UserMapper.cs" />
+    <Compile Include="Mapper\WarningMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HRM\Entities\Entities.csproj">
+      <Project>{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

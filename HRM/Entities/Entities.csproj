@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69087D00-AB75-4C7F-9FC2-32F0CFA3FCD7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entities</RootNamespace>
+    <AssemblyName>Entities</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationStringEntity.cs" />
+    <Compile Include="ControlString.cs" />
+    <Compile Include="HolidayGroupEntity.cs" />
+    <Compile Include="LanguageEntity.cs" />
+    <Compile Include="PayScaleEntity.cs" />
+    <Compile Include="PayScale.cs" />
+    <Compile Include="PayScaleItemEntity.cs" />
+    <Compile Include="ReminderEntity.cs" />
+    <Compile Include="ReportedAbsenceEntity.cs" />
+    <Compile Include="AmandamentContentEntity.cs" />
+    <Compile Include="AmandamentEntity.cs" />
+    <Compile Include="AmandamentTemplateEntity.cs" />
+    <Compile Include="BankEntity.cs" />
+    <Compile Include="BenefitEntity.cs" />
+    <Compile Include="ComplaintEntity.cs" />
+    <Compile Include="ContractContentEntity.cs" />
+    <Compile Include="ContractEntity.cs" />
+    <Compile Include="ContractTemplateEntity.cs" />
+    <Compile Include="CountryEntity.cs" />
+    <Compile Include="CurrentJobDetailsEntity.cs" />
+    <Compile Include="EducationTrainingEntity.cs" />
+    <Compile Include="EmployeeEntity.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="ExperienceEntity.cs" />
+    <Compile Include="FormEntity.cs" />
+    <Compile Include="FunctionalLevelEntity.cs" />
+    <Compile Include="GradeEntity.cs" />
+    <Compile Include="HolidayEntity.cs" />
+    <Compile Include="JobTitleEntity.cs" />
+    <Compile Include="LeaveRequestEntity.cs" />
+    <Compile Include="LeaveRespond.cs" />
+    <Compile Include="LeaveTypeEntity.cs" />
+    <Compile Include="LeaveTypeLevelEntity.cs" />
+    <Compile Include="NationalityEntity.cs" />
+    <Compile Include="OrganizationalUnitEntity.cs" />
+    <Compile Include="OrganizationalUnitGroupEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleEntity.cs" />
+    <Compile Include="SkillEntity.cs" />
+    <Compile Include="StepEntity.cs" />
+    <Compile Include="UserEntity.cs" />
+    <Compile Include="Views\AmandmentTemplatePreDataSessionView.cs" />
+    <Compile Include="Views\ComplaintView.cs" />
+    <Compile Include="Views\ContractTemplatePreDataSessionView.cs" />
+    <Compile Include="Views\DepartmentView.cs" />
+    <Compile Include="Views\DivisionView.cs" />
+    <Compile Include="Views\EmployeeView.cs" />
+    <Compile Include="Views\JobDetailsSessionView.cs" />
+    <Compile Include="Views\JobTitleView.cs" />
+    <Compile Include="Views\LeaveRequestView.cs" />
+    <Compile Include="Views\OrganizationalUnitView.cs" />
+    <Compile Include="Views\ReminderView.cs" />
+    <Compile Include="Views\ReportedAbsenceView.cs" />
+    <Compile Include="Views\SalaryView.cs" />
+    <Compile Include="Views\UserView.cs" />
+    <Compile Include="Views\WarningView.cs" />
+    <Compile Include="WarningEntity.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

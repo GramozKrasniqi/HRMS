@@ -1,0 +1,4 @@
+D:\TFS\HRMSol\HRM\Entities\bin\Debug\Entities.dll
+D:\TFS\HRMSol\HRM\Entities\bin\Debug\Entities.pdb
+D:\TFS\HRMSol\HRM\Entities\obj\Debug\Entities.dll
+D:\TFS\HRMSol\HRM\Entities\obj\Debug\Entities.pdb

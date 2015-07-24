@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Entities
+{
+    public class HolidayEntity
+    {
+        public int Id { get; set; }
+        public int HolidayGroupId { get; set; }
+        public string Title { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string Description { get; set; }
+        public StatusEnum Status { get; set; }
+
+        public override string ToString()
+        {
+            return Title;
+        }
+    }
+}
